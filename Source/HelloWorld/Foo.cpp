@@ -14,8 +14,6 @@ int32 UFoo::GetHappyMessage()
 {
   auto v = new npp::DummyDynamicLoader();
   delete v;
-  auto value = rs_trigger(100);
-  return value;
 }
 
 void foo() {
